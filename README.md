@@ -6,27 +6,27 @@ Onboarding case w/ JS, collecting events w/ GTM.
 
 # Dimensão Personalizada 1: #
 
-User DP6: Deve ser enviado em todos os eventos de Visualização de Página e Interações a Dimensão Personalizada 1 (Custom Dimension 1 ou CD1) com o seu DP6 User (usuário DP6). O DP6 User é a primeira parte do seu e-mail antes do @ usando a criptografia MD5, por exemplo:
+**User DP6:** Deve ser enviado em todos os eventos de Visualização de Página e Interações a Dimensão Personalizada 1 (Custom Dimension 1 ou CD1) com o seu DP6 User (usuário DP6). O DP6 User é a primeira parte do seu e-mail antes do @ usando a criptografia MD5, por exemplo:
 
-##### 51a7ff44ccf512e78ddb905270830774  
-##### e4c06fd1a1f9dbeae0ad586a681fe675  
+**51a7ff44ccf512e78ddb905270830774**  
+**e4c06fd1a1f9dbeae0ad586a681fe675**  
 
 # Dimensão Personalizada 2: #
 
-GTM ID: Deve ser enviado em todos os eventos de Visualização de Página e Interações a Dimensão Personalizada 2 (Custom Dimension 2 ou CD2) com o ID do seu GTM, por exemplo:
+**GTM ID:** Deve ser enviado em todos os eventos de Visualização de Página e Interações a Dimensão Personalizada 2 (Custom Dimension 2 ou CD2) com o ID do seu GTM, por exemplo:
 
-##### GTM-87F13K  
-##### GTM-66AQ12  
+**GTM-87F13K**  
+**GTM-66AQ12**  
 
 # Dimensão Personalizada 3: #
 
-GTM Version: Deve ser enviado em todos os eventos de Visualização de Página e Interações a Dimensão Personalizada 3 (Custom Dimension 3 ou CD3) com a versão do container do seu GTM, por exemplo:
+**GTM Version:** Deve ser enviado em todos os eventos de Visualização de Página e Interações a Dimensão Personalizada 3 (Custom Dimension 3 ou CD3) com a versão do container do seu GTM, por exemplo:
 
-##### 1  
-##### 2  
-##### 3  
+**1**  
+**2**  
+**3**  
 
-Precisamos que, em todas as páginas, seja enviado uma Visualização de Página. Ela não deverá possuir configuração nenhuma, apenas enviando uma visualização padrão de acordo com a documentação.
+Precisamos que, **em todas as páginas**, seja enviado uma **Visualização de Página**. Ela não deverá possuir configuração nenhuma, apenas enviando uma visualização padrão de acordo com a documentação.
 
 Além disso, gostaríamos que fossem implementados alguns eventos de interação na interação de alguns elementos. Implemente Eventos de acordo com o padrão solicitado em cada página, utilizando o modelo de AddEventListener ou OnClick:
 
